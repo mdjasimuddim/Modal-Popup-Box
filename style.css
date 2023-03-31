@@ -1,0 +1,48 @@
+.modal{
+    width: 500px;
+    height: 400px;
+    background-color: tomato;
+    color: white;
+    position: fixed;
+    box-shadow: 5px 4px 10px black;
+    left: 500px;
+    top: 100px;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+.modal.show{
+    opacity: 1;
+    pointer-events:auto;
+}
+.modal-title{
+    text-align: center;
+    text-transform: capitalize;
+}
+.modal-footer{
+    text-align: center;
+}
+.close{
+    color: #fff;
+    background-color: green;
+    border: 0;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.modal-open{
+    text-align: center;
+}
+.open{
+    margin-top: 25rem;
+    background-color: gray;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px black;
+    text-transform: capitalize;
+    border: 0;
+    font-size: 15px;
+}
